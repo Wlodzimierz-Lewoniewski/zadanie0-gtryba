@@ -5,14 +5,14 @@ liczba_dokumentow = int(input())
 dokumenty = []
 
 for dok in range(liczba_dokumentow):
-  dok = input()
-  dokumenty.append(dok)
+  dokument = input()
+  dokumenty.append(dokument)
 
 zapytania = []
 liczba_zapytan = int(input())
 for zap in range(liczba_zapytan):
-  zap = input()
-  zapytania.append(zap)
+  zapyt = input()
+  zapytania.append(zapyt)
 
 for zapytanie in zapytania: 
   interpunkcje = string.punctuation
