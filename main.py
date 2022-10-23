@@ -1,17 +1,16 @@
 import string
-lista=[]
 
 liczba_dokumentow = int(input())
 dokumenty = []
 
 for dok in range(liczba_dokumentow):
-  dokument = input()
+  dokument = input().strip()
   dokumenty.append(dokument)
 
 zapytania = []
 liczba_zapytan = int(input())
 for zap in range(liczba_zapytan):
-  zapyt = input()
+  zapyt = input().strip()
   zapytania.append(zapyt)
 
 for zapytanie in zapytania: 
