@@ -19,6 +19,16 @@
       "comparison": "included",
       "timeout": 5,
       "points": 1
+    },
+    {
+      "name": "Zadanie0 test3",
+      "setup": "",
+      "run": "python3 main.py",
+      "input": "3\r\nYour care set up, do not pluck my care down.\r\nMy care is loss of care with old care done.\r\nYour care is gain of care when new care is won.\r\n1\r\ncare",
+      "output": "[1, 2, 0]",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
     }
   ]
 }
