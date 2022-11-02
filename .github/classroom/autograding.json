@@ -3,7 +3,7 @@
     {
       "name": "Zadanie0 test1",
       "setup": "",
-      "run": "python3 main.py",
+      "run": "python main.py",
       "input": "3\r\nYour care set up, do not pluck my care down.\r\nMy care is loss of care with old care done.\r\nYour care is gain of care when new care is won.\r\n2\r\ncare\r\nis",
       "output": "[1, 2, 0]\r\n[2, 1]",
       "comparison": "included",
@@ -13,7 +13,7 @@
     {
       "name": "Zadanie0 test2",
       "setup": "",
-      "run": "python3 main.py",
+      "run": "python main.py",
       "input": "4\r\nYour care set up, do not pluck my care down.\r\nMy care is loss of care with old care done.\r\nYour care is gain of care when new care is won.\r\nCare, care, is gain of care, when new care is won.\r\n3\r\ncare\r\nwon\r\nis",
       "output": "[3, 1, 2, 0]\r\n[2, 3]\r\n[2, 3, 1]",
       "comparison": "included",
